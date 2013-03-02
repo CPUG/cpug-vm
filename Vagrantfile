@@ -9,7 +9,7 @@ Vagrant::Config.run do |config|
     vm_config.vm.customize ["modifyvm", :id,  "--natdnshostresolver1", "on", "--memory", 3000]
     vm_config.vm.network :hostonly, "192.168.33.10"
     vm_config.vm.host_name = "clojure-vm"
-    vm_config.vm.boot_mode = :gui
+#    vm_config.vm.boot_mode = :gui
 #    vm_config.vm.share_folder "v-data-1", "/etc/puppet/", "./puppet/UNIX_ROOT/etc/puppet/"
 #    vm_config.vm.provision :shell, :path => "./puppet/scripts/puppet-master-bootstrap.sh"
   end
