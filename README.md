@@ -17,7 +17,7 @@ This is a vagrant vm to ease hacking around clojure:
 ``` sh
 git clone git@github.com:CPUG/cpug-vm.git
 
-cd CPUG-vm
+cd cpug-vm
 
 vagrant up
 ```
