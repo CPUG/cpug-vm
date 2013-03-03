@@ -12,6 +12,12 @@ This is a vagrant vm to ease hacking around clojure:
 - [git](http://git-scm.com/)
 - [vagrant](./README-vagrant.md)
 
+**Note** It's prefered to install rubygems, then install Vagrant from rubygem instead of your package manager: 
+```sh
+sudo apt-get install rubygems
+sudo gem install vagrant
+```
+
 # How
 
 ``` sh
